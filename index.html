@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Title Goes Here</title>
+     <title>DOM Play</title>
   <meta charset="utf-8" />
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/nav.css" />
+  <style>
+
+      /* #play span{
+          background-color: yellow;
+      } */
+
+  </style>
  </head>
  <body>
      <header>
-     <h1>Title Goes Here</h1>
+     <h1>DOM Play</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
             <a href="#" target="_blank">Name of project goes here</a>
@@ -19,15 +26,23 @@
      </header>
      
    <main class="wrapper">
-    <p>Content goes here</p>
+       <h2 class="subheader">Ongod</h2>
+       <div id="play">
+    <p><span data-actor="Sponge">SpongeBob: Talk to me, Krabs.</span></p>
+    <p > <span data-actor="Crabs">Mr. Krabs: Oh, it started out as a simple order: a Krabby Patty with cheese. When the customer took a bite, no cheese! [he cries, but SpongeBob slaps him]</span></p>
+    <p><span data-actor="Sponge" >SpongeBob: Get a hold of yourself, Eugene. I'm going in. [SpongeBob walks in and sees a fish, extremely nervous, looking at his Krabby Patty.] Take it easy, friend. I'm the manager of this establishment. [He puts a briefcase down on a table.] Everything's gonna be just fine.</span></p>
+    <p > <span data-actor="Crabs">Mr. Krabs: Hello. I like money.</span></p>
+    <p><span data-actor="Sponge" >SpongeBob: I'm ready, promotion! I'm ready, promotion!</span></p>
+    </div>
      <footer>
-      <p><small>&copy; 2021 by 
-          YOUR NAME HERE, All Rights Reserved ~ 
+      <p><small>&copy; 2022 by 
+          Victor Ramos, All Rights Reserved ~ 
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
      </p>
     </footer>
   </main>
   <script src="js/main.js"></script>
+  <script src="js/dom-play.js"></script>
  </body>
 </html>
